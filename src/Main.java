@@ -7,10 +7,11 @@ public class Main {
     //class powerful user defined datatype,
 
     public static void main(String[] args){
-                car porshe = new car(); //defining an object/creating an object
+                car porshe = new car(); //defining an object/creating an object / this is initialization
                 car ford = new car();//
-            porshe.model = "Chevy";
-
+        porshe.setModel("chevy");// if this is not here the default is null
+        System.out.println("the model is " + porshe.getModel());
+            //setters
 
 
 

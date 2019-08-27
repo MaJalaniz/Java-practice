@@ -17,7 +17,17 @@ public class car {
     private String color;
 
     //creating a method will attach to all objects you create for that class
-
+    public void setModel(String model) {
+        String validModel = model.toLowerCase();
+        if(validModel.equals("chevy") || validModel.equals("ford")) {
+            this.model = model;
+        } else{
+            this.model = "unknown";
+        }
+    }
+    public String getModel(){
+        return this.model;
+    }
 
 
 }
