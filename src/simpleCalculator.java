@@ -8,10 +8,10 @@ public double firstNumber;
 public double secondNumber;
 
     public double getFirstNumber(){
-        return this.firstNumber;
+        return firstNumber;
     }
     public double getSecondNumber(){
-        return this.secondNumber;
+        return secondNumber;
     }
 
     public void setFirstNumber(double one){
@@ -37,7 +37,5 @@ public double secondNumber;
             return firstNumber / secondNumber;
         }
     }
-
-
 
 }

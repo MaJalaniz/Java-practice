@@ -55,7 +55,7 @@ public class sumCalc {
 
     }
     private String getWords(){
-        return this.q;
+        return q;
     }
 
 

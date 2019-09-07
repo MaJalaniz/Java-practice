@@ -26,7 +26,7 @@ public class car {
         }
     }
     public String getModel(){
-        return this.model;
+        return model;
     }
 
 
