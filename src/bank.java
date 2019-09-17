@@ -6,7 +6,7 @@ public class bank {
 
         System.out.println(makAccount.balance);
 
-        bank bobAccount = new bank(1234, 0.5, "Bob", "email@email.com", 123456789)
+        bank bobAccount = new bank(1234, 0.5, "Bob", "email@email.com", 123456789);
     }
 
     private int accountNumber;
