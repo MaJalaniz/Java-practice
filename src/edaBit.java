@@ -1,5 +1,6 @@
 public class edaBit {
     public static void main(String[] args){
+  /*
     System.out.println(Sum(5,4));
     System.out.println(firstElement(numbersArray));
     System.out.println(area(5,10));
@@ -7,7 +8,11 @@ public class edaBit {
     System.out.println(edge(10,11));
     System.out.println(hourToSeconds(5));
     System.out.println(remainder(6,3));
+    System.out.println(equals(0));
+   */
+    System.out.println(farm(4,4,4));
     }
+/*
 //====================================================================
     //return a sum of two numbers
 private static int Sum(int one, int two) {
@@ -55,11 +60,28 @@ private static int remainder(int one, int two) {
 }
 
 //=======================================================================
+    //Return if the number is less than or equal to zero
+private static boolean equals(int three){
+   boolean optionOne = true;
+   boolean optionTwo = false;
 
-
-
+    if(three <= 0){
+        return optionOne;
+    } else{
+        return optionTwo;
+    }
+}
+*/
 //=======================================================================
+    //Return the Farm Problem or total legs on the farm
 
+private static int farm(int one, int two, int three){
+    int chicken = 2;
+    int cow = 4;
+    int pig = 4;
+
+    return ((chicken * one) + (cow * two) + (pig * three));
+}
 
 
 
