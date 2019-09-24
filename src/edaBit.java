@@ -6,7 +6,7 @@ public class edaBit {
     System.out.println(nextNum(5));
     System.out.println(edge(10,11));
     System.out.println(hourToSeconds(5));
-
+    System.out.println(remainder(6,3));
     }
 //====================================================================
     //return a sum of two numbers
@@ -32,20 +32,36 @@ private static int area(int base, int height){
 
 //======================================================================
 
+    //Return an integer plus one
 private static int nextNum(int plusOne){
     return plusOne + 1;
 }
 //=======================================================================
-
+    // Return the maximum third side of the triangle
 private static int edge(int sideOne, int sideTwo){
     return (sideOne + sideTwo) - 1;
 }
 //=======================================================================
-
+        //Return the hours converted to seconds
 private static int hourToSeconds(int hour){
     return ((hour * 60) * 60);
 }
 
 //=======================================================================
 
+    //Return the remainder from two numbers
+private static int remainder(int one, int two) {
+    return one % two;
+}
+
+//=======================================================================
+
+
+
+//=======================================================================
+
+
+
+
+//=======================================================================
 }
