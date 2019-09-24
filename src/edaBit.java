@@ -5,6 +5,8 @@ public class edaBit {
     System.out.println(area(5,10));
     System.out.println(nextNum(5));
     System.out.println(edge(10,11));
+    System.out.println(hourToSeconds(5));
+
     }
 //====================================================================
     //return a sum of two numbers
@@ -38,6 +40,12 @@ private static int nextNum(int plusOne){
 private static int edge(int sideOne, int sideTwo){
     return (sideOne + sideTwo) - 1;
 }
+//=======================================================================
+
+private static int hourToSeconds(int hour){
+    return ((hour * 60) * 60);
+}
+
 //=======================================================================
 
 }
