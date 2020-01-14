@@ -3,6 +3,7 @@ class MountainBike extends Bicycles{
 public static void main(String[] args){
 
 }
+
 String type;
 public MountainBike(String color, int gears, String type){
     super(color, gears);
@@ -15,7 +16,7 @@ public double price(){
 }
 @Override
 public String bikeMessage(){
-    return "This bike has " + super.gears + " and costs " + price();
+    return "This bike is a " + this.type + " bike and has "+ super.gears + " which costs " + "$" + price();
 }
 
 
