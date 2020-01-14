@@ -16,7 +16,7 @@ public double price(){
 }
 @Override
 public String bikeMessage(){
-    return "This bike is a " + this.type + " bike and has "+ super.gears + " which costs " + "$" + price();
+    return "This bike is a " + this.type + " bike which has "+ super.gears + " gears and costs " + "$" + price();
 }
 
 

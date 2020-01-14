@@ -16,7 +16,7 @@ class RoadBike extends Bicycles{
     }
     @Override
     public String bikeMessage(){
-        return "This bike is a " + this.model + " bike and has "+ super.gears + " which costs " + "$" + price();
+        return "This bike is a " + this.model + " bike which has "+ super.gears + " gears and costs " + "$" + price();
 
     }
 }
