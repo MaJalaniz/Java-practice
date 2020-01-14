@@ -6,7 +6,7 @@ public static void main(String[] args){
 
     System.out.println(b1.bikeMessage());
     System.out.println(b1.price());
-    System.out.println(------------------------------------------------------);
+    System.out.println("This is the wall of text that is supposed to seperate the two different bikes from each other, so they don\'t touch");
     System.out.println(b2.bikeMessage());
     System.out.println(b2.price());
 }
