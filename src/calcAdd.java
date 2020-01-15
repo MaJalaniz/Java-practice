@@ -26,8 +26,17 @@ public static double add(double a, double b, double c, double d){
 public static int subtract(int a, int b){
     return a - b;
 }
-public static double subtract(int a, int b){
+public static double subtract(double a, double b){
     return a - b;
+}
+
+
+
+ void messageOne(){
+    System.out.println("This is the parent string");
+}
+void messageTwo(){
+    System.out.println("This is still the parent string");
 }
 
 }
