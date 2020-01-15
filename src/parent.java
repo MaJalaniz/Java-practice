@@ -1,4 +1,4 @@
-class calcAdd{
+class parent{
 
 public static void main(String[] args){
 
@@ -33,10 +33,10 @@ public static double subtract(double a, double b){
 
 
  void messageOne(){
-    System.out.println("This is the parent string");
+    System.out.println("Parent string");
 }
 void messageTwo(){
-    System.out.println("This is still the parent string");
+    System.out.println("Parent string");
 }
 
 }
