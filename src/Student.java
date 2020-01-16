@@ -32,8 +32,8 @@ class Student {
         System.out.println(pupils.containsKey("Demi"));
         System.out.println(pupils.containsValue("Tsuru"));
         System.out.println(pupils.getOrDefault("Carter", "Smith"));
-        System.out.println();
-        System.out.println();
+        System.out.println(pupils.putIfAbsent("Miranda", "Sumire"));
+        System.out.println(pupils.isEmpty());
 
 
     }
