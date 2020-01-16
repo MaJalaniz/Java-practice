@@ -22,7 +22,10 @@ class GradesApplication {
         s4.addGrade(92);
         s4.addGrade(90);
 
-        System.out.println(s1.getName() + ", " + s2.getName() + ", " + s3.getName() + ", " + s4.getName());
+        System.out.println(s1.getName() + "'s grade is: " + s1.getGrades());
+        System.out.println(s2.getName() + "'s grade is: " + s2.getGrades());
+        System.out.println(s3.getName() + "'s grade is: " + s3.getGrades());
+        System.out.println(s4.getName() + "'s grade is: " + s4.getGrades());
 
     }
 
