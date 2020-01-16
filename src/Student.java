@@ -11,7 +11,7 @@ class Student {
      marc.addGrade(90);
      marc.addGrade(88);
 
-     System.out.println(marc.getName() + ", " + marc.grade);
+     System.out.println(marc.getName() + ", " + marc.getGrades());
     // System.out.println(marc.grade.add(88));
      //System.out.println(marc.grade);
      //System.out.println(marc.grade);
@@ -38,6 +38,10 @@ class Student {
         }else{
             System.out.println("Invalid Grade");
         }
+    }
+
+    public ArrayList<Integer> getGrades(){
+        return grade;
     }
 
    // public double getGradeAverage();
