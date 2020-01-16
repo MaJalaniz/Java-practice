@@ -4,6 +4,7 @@ import java.util.*;
 class Student {
 
     public static void main(String[] args){
+        /*
         ArrayList<Integer> num = new ArrayList<>();
         num.add(0,2);
         num.add(4);
@@ -19,6 +20,22 @@ class Student {
         System.out.println(num.isEmpty());
         System.out.println(num.remove(4));
         System.out.println(num);
+        */
+        HashMap<String, String> pupils = new HashMap<>();
+        pupils.put("Matthew","Alaniz");
+        pupils.put("Johnny", "Reyes");
+        pupils.put("Demi", "Ortega");
+        pupils.put("Ami", "Tsuru");
+
+        System.out.println(pupils);
+        System.out.println(pupils.get("Matthew"));
+        System.out.println(pupils.containsKey("Demi"));
+        System.out.println(pupils.containsValue("Tsuru"));
+        System.out.println(pupils.getOrDefault("Carter", "Smith"));
+        System.out.println();
+        System.out.println();
+
+
     }
 
 
