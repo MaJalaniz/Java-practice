@@ -5,28 +5,28 @@ class Student {
 
     public static void main(String[] args){
      Student marc = new Student("marc");
-     marc.addGrade(98);
-     marc.addGrade(89);
-     marc.addGrade(96);
-     marc.addGrade(90);
-     marc.addGrade(88);
+        marc.addGrade(98);
+        marc.addGrade(89);
+        marc.addGrade(96);
+        marc.addGrade(90);
+        marc.addGrade(88);
 
-     System.out.println(marc.getName() + ", " + marc.getGrades());
-    // System.out.println(marc.grade.add(88));
-     //System.out.println(marc.grade);
-     //System.out.println(marc.grade);
+        System.out.println(marc.getName() + ", " + marc.getGrades());
+        System.out.println(marc);
+        // System.out.println(marc.grade);
+        // System.out.println(marc.grade);
     }
 
     private ArrayList<Integer> grade;
     private String name;
 
-    Student(String name){
-        this(name, new ArrayList<Integer>());
-    }
+   // Student(String name){
+    //    this(name, new ArrayList<Integer>());
+    //}
 
-    Student(String name, ArrayList<Integer> grade){
+    Student(String name){
         this.name = name;
-        this.grade = grade;
+        this.grade = new ArrayList<Integer>();
     }
 
     public String getName(){
