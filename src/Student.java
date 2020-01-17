@@ -30,8 +30,10 @@ class Student {
     }
 
     public String getName(){
-        return name;
+        return this.name;
     }
+
+
     public void addGrade(int grade){
         if(grade >= 0 && grade <= 100){
             this.grade.add(grade);
