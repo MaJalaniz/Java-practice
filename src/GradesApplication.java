@@ -43,7 +43,8 @@ class GradesApplication{
 
 
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Welcome \n Here are the usernames of our students:" );
+        System.out.println("Welcome! \n Here are the usernames of our students: ");
+        System.out.println("");
         String userInput = scanner.nextLine();
 
         if(userInput.contains("yes") == true){
