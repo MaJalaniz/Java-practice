@@ -38,13 +38,13 @@ class GradesApplication{
         student.put("Toya", s3);
         student.put("Kio", s4);
 
-        System.out.println(student);
+        System.out.println(student.get("Mark"));
 
 
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Welcome! \n Here are the usernames of our students: ");
-        System.out.println("");
+        System.out.println("|" + student.get(s1) +"|  |"+ student.get("Damien") + "|  |" + student.get("Toya") + "|  |" + student.get("Kio") + "|");
         String userInput = scanner.nextLine();
 
         if(userInput.contains("yes") == true){
