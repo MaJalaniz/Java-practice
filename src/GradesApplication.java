@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Scanner;
 
 class GradesApplication{
 
@@ -41,12 +42,19 @@ class GradesApplication{
 
 
 
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Welcome \n Here are the usernames of our students:" );
+        String userInput = scanner.nextLine();
 
-
+        if(userInput.contains("yes") == true){
+            System.out.println("Hooray");
+        }else{
+            System.out.println("Aww Shucks");
+        }
 
     }
 
-  
+   
 
 
 
