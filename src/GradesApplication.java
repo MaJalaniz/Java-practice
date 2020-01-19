@@ -44,13 +44,17 @@ class GradesApplication{
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Welcome! \n Here are the usernames of our students: ");
-        System.out.println("|" + student.get(s1) +"|  |"+ student.get("Damien") + "|  |" + student.get("Toya") + "|  |" + student.get("Kio") + "|");
+        System.out.println("|" + student.get("Mark") +"|  |"+ student.get("Damien") + "|  |" + student.get("Toya") + "|  |" + student.get("Kio") + "|");
         String userInput = scanner.nextLine();
 
         if(userInput.contains("yes") == true){
             System.out.println("Hooray");
         }else{
             System.out.println("Aww Shucks");
+        }
+
+        for(String username : student.keySet()){
+            System.out.println(username + " | ");
         }
 
     }
