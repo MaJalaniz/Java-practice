@@ -1,6 +1,6 @@
 class edabit_Java_warmup{
 public static void main(String[] args){
-System.out.println(lessEqualZero(20));
+System.out.println();
 System.out.println();
 }
 /*
@@ -24,8 +24,6 @@ public static int thirdSide(int sideOne, int sideTwo){
         return ((sideOne + sideTwo) - 1);
     }
 }
-*/
-
 public static boolean lessEqualZero(int num){
     if(num <= 0){
         System.out.println("Less than or equal to Zero");
@@ -35,4 +33,15 @@ public static boolean lessEqualZero(int num){
         return false;
     }
 }
+*/
+public static int fibo(int shell){
+    if(shell < 0) {
+        return shell;
+    }else{
+    return (fibo(shell - 1) + fibo(shell - 2)); 
+    }
+}
+
+
+
 }
