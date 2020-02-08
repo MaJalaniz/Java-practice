@@ -1,9 +1,11 @@
 class edabit_Java_warmup{
 public static void main(String[] args){
-System.out.println();
+System.out.println(empty("Sparrows"));
 System.out.println();
 }
 /*
+//Very Easy Challenges
+
 public static int time(int minutes){
     return minutes * 60;
 }
@@ -33,12 +35,24 @@ public static boolean lessEqualZero(int num){
         return false;
     }
 }
-*/
+
+//Medium Challenge
 public static int fibo(int shell){
     if(shell < 0) {
         return shell;
     }else{
     return (fibo(shell - 1) + fibo(shell - 2)); 
+    }
+}
+*/
+
+public static String empty(String word){
+    if(word.isEmpty() == true){
+        System.out.println("Nothing");
+        return "Empty String";
+    }else{
+        System.out.println("Words are present.");
+        return word;
     }
 }
 
