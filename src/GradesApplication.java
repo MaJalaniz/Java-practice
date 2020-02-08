@@ -41,7 +41,7 @@ class GradesApplication{
         System.out.println(student.get("Mark"));
 
 
-
+        /*
         Scanner scanner = new Scanner(System.in);
         System.out.println("Welcome! \n Here are the usernames of our students: ");
         System.out.println("|" + student.get("Mark") +"|  |"+ student.get("Damien") + "|  |" + student.get("Toya") + "|  |" + student.get("Kio") + "|");
@@ -52,9 +52,9 @@ class GradesApplication{
         }else{
             System.out.println("Aww Shucks");
         }
-
+        */
         for(String username : student.keySet()){
-            System.out.println(username + " | ");
+            System.out.println("| " + username + " | ");
         }
 
     }
