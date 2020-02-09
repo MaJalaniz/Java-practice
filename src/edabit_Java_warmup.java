@@ -23,6 +23,16 @@ public static void main(String args[]){
 System.out.println(squared(5));
 }
 
+//Very Easy challenge
+
+/*
+//Whats wrong with this code?
+
+public static int squaed(int b){
+    return $a * $a
+}
+ */
+
 public static int squared(int a){
     return a * a;
 }
