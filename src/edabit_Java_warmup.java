@@ -10,7 +10,7 @@ public class edabit_Java_warmup{
           }
           return laste;
       }
-      
+
 public static void main(String args[]){
     int[] myArray = new int[3];
     myArray[0] = 12;
@@ -18,25 +18,14 @@ public static void main(String args[]){
     myArray[2] = 5;
    edabit_Java_warmup m = new edabit_Java_warmup();
 
-System.out.println(m.lastElement(myArray) + ": is the last item in this array");
-System.out.println("This is the new Array");
-
+//System.out.println(m.lastElement(myArray) + ": is the last item in this array");
+//System.out.println("This is the new Array");
+System.out.println(squared(5));
 }
 
-//int[] myArray = new int[2];
- //edabit_Java_warmup m = new edabit_Java_warmup();
-
-
-/*
-//Medium Challenge
-public static int fibo(int shell){
-    if(shell < 0) {
-        return shell;
-    }else{
-    return (fibo(shell - 1) + fibo(shell - 2)); 
-    }
+public static int squared(int a){
+    return a * a;
 }
-*/
 
 
 
