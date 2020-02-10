@@ -20,7 +20,7 @@ public static void main(String args[]){
 
 //System.out.println(m.lastElement(myArray) + ": is the last item in this array");
 //System.out.println("This is the new Array");
-System.out.println(squared(5));
+System.out.println(evenly(4,3));
 }
 
 //Very Easy challenge
@@ -37,6 +37,15 @@ public static int squared(int a){
     return a * a;
 }
 
+ public static int evenly(int a, int b){
+    if(a % b == 0){
+        System.out.println("This divides evenly");
+        return 1;
+    }else{
+        System.out.println("The answer is: " + a/b);
+        return 0;
+    }
+ }
 
 
 
