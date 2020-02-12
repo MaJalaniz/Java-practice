@@ -4,7 +4,7 @@ import java.util.Map;
 
 public class edabit_Java_warmup {
 
-
+    //Write a method that takes in a Hashmap and turns it into an ArrayList;
     public static ArrayList<String> changeOver(HashMap<String,String> myList){
        
         ArrayList<String> list = new ArrayList<String>(myList.values());
