@@ -9,16 +9,14 @@ public class edabit_Java_warmup {
 
     public static String rockPaperSci(){
 
-    
     String[] rPi = {"rock", "paper", "scissors"};
+
     int length = rPi.length;
     int randomNumber = (int)(Math.random() * length);
     String comChoice = rPi[randomNumber];
         
-    Random rand = new Random();
     Scanner scan = new Scanner(System.in);
 
-    //int rand_Game = rand.nextInt(4);
     System.out.println("Choose Rock, Paper or Scissors: ");
     String playerOne = scan.next();
     String comp = comChoice;
