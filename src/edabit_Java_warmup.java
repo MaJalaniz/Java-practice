@@ -26,31 +26,31 @@ public class edabit_Java_warmup {
 
 
     
-    if(rPi[randomNumber].contains("rock") && playerOne.contains("scissors")){
+    if(rPi[randomNumber].contains("rock") && playerOne.contains("scissors") == true){
         String comWin = "Computer Wins!";
        // System.out.println("Computer Wins!");
         return comWin;
-    }else if(rPi[randomNumber].contains("paper") && playerOne.contains("rock")){
+    }else if(rPi[randomNumber].contains("paper") && playerOne.contains("rock") == true){
         String comWin = "Computer wins";
        // System.out.println("Computer Wins!");
         return comWin;
-    }else if(rPi[randomNumber].contains("scissors") && playerOne.contains("paper")){
+    }else if(rPi[randomNumber].contains("scissors") && playerOne.contains("paper") == true){
         String comWin = "Computer wins";
         //System.out.println("Computer Wins!");
         return comWin;
-    }else if(playerOne.contains("rock") && rPi[randomNumber].contains("scissors")){
+    }else if(playerOne.contains("rock") && rPi[randomNumber].contains("scissors") == true){
         String playerWin = "Player One Wins!";
        // System.out.println("Player One Wins!");
         return playerWin;
-    }else if(playerOne.contains("paper") && rPi[randomNumber].contains("rock")){
+    }else if(playerOne.contains("paper") && rPi[randomNumber].contains("rock") == true){
         String playerWin = "Player One Wins!";
         //System.out.println("Player One Wins!");
         return playerWin;
-    }else if(playerOne.contains("scissors") && rPi[randomNumber].contains("paper")){
+    }else if(playerOne.contains("scissors") && rPi[randomNumber].contains("paper") == true){
         String playerWin = "Player One Wins!";
        // System.out.println("Player One Wins!");
         return playerWin;
-    }else if(playerOne == rPi[randomNumber]){
+    }else if(playerOne == rPi[randomNumber] == true){
         //System.out.println("TIE game");
         return "TIE Game";
     }else{
