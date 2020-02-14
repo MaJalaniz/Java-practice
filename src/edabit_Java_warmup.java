@@ -2,30 +2,33 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Random;
+import java.util.Scanner;
 
 public class edabit_Java_warmup {
 
-    //Write a method that multiplies all the values in an array by array size
-    public static ArrayList<Integer> multiplication(int[] one){
-        ArrayList<Integer> value = new ArrayList<Integer>();
-        for(Integer three : one){
-            value.add(three * one.length);
-        }
-        return value;
-    }
+    public static String rockPaperSci(){
 
+    Random rand = new Random();
+    Scanner scan = new Scanner(System.in);
+
+    int rand_Game = rand.nextInt(4);
+    String playerOne = scan.next();
+
+
+    String[] rPi = {"rock", "paper", "scissors"};
+    int length = rPi.length;
+    int randomNumber = (int)(Math.random() * length);
+
+    //if(rPi[randomNumber] != playerOne)
+        return rPi[randomNumber];
+       
+    }
 
 
 public static void main(String args[]){
 
-    int[] numbers = {2,4,6,8};
-    int[] multiplyBy = {1,2,3,4};
-    
-
-
-//System.out.println(numbers); 
-//System.out.println(multiplyBy);
-System.out.println("Array values multiplied: " + multiplication(numbers));
+System.out.println(rockPaperSci());
 
 }
 
