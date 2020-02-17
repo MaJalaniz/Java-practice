@@ -32,6 +32,25 @@ public class edabit_Java_warmup {
       return 0;
   }
     
+ public static int findBoth(int[] three){
+    int max = 0;
+    for(int i = 0; i < three.length; i++){
+        //System.out.println(one[i] + " and max: " + max);
+        if(three[i] > max){
+           max = three[i];
+           //System.out.println("This is the new Max: " + max);
+        }
+    }
+
+    for(int a = 5; a < three.length; a--){
+        System.out.println(three[a]);
+        if(a == 0 || three[a] < 5){
+            return three[a];
+        }
+      }
+
+     return max;
+ } 
     
     
 
