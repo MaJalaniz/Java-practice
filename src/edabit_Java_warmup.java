@@ -20,6 +20,17 @@ public class edabit_Java_warmup {
       }
       return max;
   }
+
+  public static int minimum(int[] two){
+       //Hard coded
+      for(int a = 5; a < two.length; a--){
+        System.out.println(two[a]);
+        if(a == 0 || two[a] < 5){
+            return two[a];
+        }
+      }
+      return 0;
+  }
     
     
     
@@ -29,7 +40,7 @@ public class edabit_Java_warmup {
 public static void main(String args[]){
 
     int[] exampleArr = {20, 10, 43, 67, 100, 3};
-System.out.println(maximum(exampleArr));
+System.out.println(minimum(exampleArr));
 
 }
 
