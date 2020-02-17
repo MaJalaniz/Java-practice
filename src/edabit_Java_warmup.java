@@ -11,12 +11,13 @@ public class edabit_Java_warmup {
 
   public static int maximum(int[] one){
       int max = 0;
-        for(int i = 0; i < one.length: i++){
-            if(one[i] < max){
-                max = one[i];
-                System.out.println(max);
-            }
-        }
+      for(int i = 0; i < one.length; i++){
+          //System.out.println(one[i] + " and max: " + max);
+          if(one[i] > max){
+             max = one[i];
+             //System.out.println("This is the new Max: " + max);
+          }
+      }
       return max;
   }
     
@@ -28,7 +29,7 @@ public class edabit_Java_warmup {
 public static void main(String args[]){
 
     int[] exampleArr = {20, 10, 43, 67, 100, 3};
-System.out.println();
+System.out.println(maximum(exampleArr));
 
 }
 
