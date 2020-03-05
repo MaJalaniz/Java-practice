@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Adventure {
+public class Adventure extends Enemies {
 
 
 
@@ -32,6 +32,7 @@ public class Adventure {
             hero.setHeroName(name);
         }
         System.out.println("Great, now let's begin");
+        System.out.println("You encounter: " + getEnemy() + "! What do you do?");
         //set a Timer Using 
        
        //System.out.println(tom.getHealth() - damage);
